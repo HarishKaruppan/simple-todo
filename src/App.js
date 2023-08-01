@@ -27,7 +27,6 @@ function App() {
       return curr.filter((todo) => todo.id !== id);
     });
   };
-  console.log(todos);
   return (
     <div className="container">
       <Form setTodos={setTodos} />
